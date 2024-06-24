@@ -1,0 +1,549 @@
+body {     
+    font-family: 'robotoblack', sans-serif;
+    font-size-adjust:0.6; 
+    font-size:106%;
+    min-width:100%;
+    min-height:100%;
+}
+/*logo webagency flottant entête*/
+#flottant_logo {
+    width:13%;
+    float:left;
+    margin-left:13%;
+    padding-top:1%;
+}
+/*menu de l'accueil*/
+#menu1 {
+    display:flex;
+    display: -webkit-box;/*safari*/ 
+    -webkit-box-pack: end; /* justify-content */
+    justify-content:flex-end;
+    list-style-type:none;
+    margin-right:16%;
+}  
+.menu1_ac {
+    margin:4px 7px;
+}
+.menu1_ac a {
+    font-size:0.7em;
+    color:grey;
+    text-decoration:none;  
+}
+/*border bleu dessus menu navigation*/
+.menu1_ac a:hover {
+    border-top:2px solid #5cadd3;
+    padding-top:15px;
+} 
+/*menu qui suit la navigation*/
+#menu {
+    position: fixed;
+    z-index:3;
+    height:10%;
+    width:100%;
+    background-color:#FBFCFA;
+    margin-top:-1%; 
+}  
+#slider img {
+    padding-top:5%;
+    width:100%;
+}
+/*titre h1 sur la photo slide*/
+#body_slide { 
+    position:absolute; 
+    margin:13%;            
+} 
+/*titre sur la photo webagency*/
+h1 {
+    font-size-adjust:0.6; 
+    font-size:1.7em; 
+    color:white;
+}
+/*deuxieme titre sur la photo webagency*/
+h6 {
+    font-size:0.8em;
+    font-weight:100;
+    color:white;
+    margin-top:-10px;
+}
+/* bouton sur l'image du slider*/              
+#body_slide a {
+    color:white;
+    background-color:#5cadd3;
+    padding:9px 12px;
+    border-radius:1px;
+    border-bottom:2px solid #4494bb;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+/*boutons next prev du slider fontawsome*/ 
+#bouton_slide {
+    width:100%;
+    display:flex;  
+    justify-content: space-between;
+    margin-top: -20%;
+}
+#prev {
+    background-color:rgba(0,0,0,0.4); 
+    height:65px;
+    width: 35px; 
+    border-bottom-right-radius: 100px; 
+    border-top-right-radius: 100px;
+  }
+#next {   
+    background-color:rgba(0,0,0,0.4); 
+    height: 65px;
+    width: 35px;  
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+/*fontawsome bouton slider*/
+#fa1 {
+    position:relative;
+    font-size:1.5em;
+    color:grey;
+    top:26%;
+    left:12%;
+}
+#fa2 {
+    position: relative;
+    font-size:1.5em;
+    color:grey;
+    top:26%;
+    right:-34%;
+}
+/*barre de progression*/
+#progress { 
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background-color: #5cadd3;
+    top:245px;
+}
+/*couleur du logo webagency dans le slider*/
+span {
+    color:#5cadd3;
+}
+/*barre de transition nos services et nos projets*/
+hr {
+    position: absolute;
+    width: 16%; 
+    background-color:#5cadd3;
+    height:0.001%; 
+    margin-left:42%;
+    z-index: -1;
+}
+/*hr cercle blanc*/
+.cercle {
+    position: absolute;
+    width:20px;
+    height:20px;
+    background:rgba(255,255,255,1);
+    border-radius:19px;
+    margin-left:49.3%;
+    margin-bottom:23%;
+}
+/*hr boule bleue*/
+.rond {
+    position:absolute;
+    width:11px;
+    height:11px;
+    border-radius:7px;
+    background-color:#5cadd3;
+    margin-left:20.8%;
+    margin-top:24.5%;
+    -webkit-margin-top:24%;
+}
+/* titres Nos services et Nos Projets*/
+h2 {
+    font-size:2em;
+    text-align:center; 
+    color:black;
+}
+ /* Pages nos services*/
+#element1 {
+    margin-top:18%;
+}
+/*paragraphe dans nos services*/
+h3 {
+    position: relative;
+    margin: auto 22%;
+    font-size:0.8em;
+    font-weight:100;
+    text-align:center; 
+    color:grey;
+    margin-top:5%;
+}
+#tv {
+    width:33%;
+    padding-top:4%;
+}
+/*phrases dans nos services en tableau*/
+h4 {
+    margin: auto 25%;
+    font-size:0.8em;
+    font-weight:100;
+    color:grey;
+    margin-bottom:2%;
+    margin-left:-5%;
+}
+/*tous les cercles avec fontawsomes*/
+#services_font {
+    margin-left:53%;
+    margin-top:-12%;
+}
+/*table nos services*/
+#services_tab {
+    margin-top:-13%;
+    margin-left:59%;
+}
+/*cercles contenant les font awsome nos services*/
+#cercle1,#cercle2,#cercle3 {
+    position:relative;
+    width:40px;
+    height:38px;
+    background:white;
+    border-radius:19px;
+    border:1px solid #5cadd3;
+    opacity:0.2; 
+} 
+#cercle1 { 
+    top:2px;
+    right:-3px;
+}
+#cercle2 {
+    top:12px;
+    right:-3px;
+} 
+#cercle3 {
+    top:30Px;
+    right:-3px;
+} 
+/*petite boule des icones font awsome nos services*/
+#ball1,#ball2,#ball3 {
+    position: relative;
+    height:7px;
+    width:7px;
+    background-color: #5cadd3;
+    border-radius: 40%;
+    right:-40px;
+}
+#ball1 { 
+    top:-44px;
+}
+#ball2 {
+    top:-34px;
+}
+#ball3 {    
+    top:-16px;
+}
+/*font awsome*/
+#line,#cubes,#pie {
+    position:relative;
+    color:#5cadd3;
+}
+#line {
+    right:-14px;
+    top:-30px;
+}
+#cubes {
+    right:-12px;
+    top:-22px;
+}
+#pie {
+    right:-12px;
+    top:-4px;
+}
+/*nos projets*/
+#element2 {
+    padding-top:6%;
+}
+/*texte dans animation photos nos projets*/
+p {
+    font-size: 0.8em;
+    font-weight:100;
+    text-align:left; 
+    color:white;  
+}
+/* ul bouton menu nos projets*/
+#menu2 {
+    display: flex;
+    display: -webkit-box;/*safari*/ 
+    -webkit-box-pack:center; /* justify-content pour safari */
+    justify-content: center;
+    list-style-type: none;
+    padding: 9px 6px;
+}
+/* a bouton menu projet*/ 
+#bout1,#bout2,#bout3,#bout4 {
+    display:inline-block; 
+    text-decoration: none;
+    background-color:lightgrey;
+    font-size: 0.9em;
+    font-weight:100;
+    padding: 9px 6px;
+    border-bottom:2.5px solid lightgrey;
+    color:grey;
+} 
+#bout1 {
+    border-top-left-radius:3px; 
+    border-bottom-left-radius:3px;  
+}
+#bout4 {
+    border-top-right-radius:3px; 
+    border-bottom-right-radius:3px; 
+}
+/*caret*/
+.triangle { 
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #468cad  transparent transparent transparent; 
+    top:101%;
+    right:42%;
+    opacity:0;
+}
+/*effet hover boutons nos projets*/
+#bout1:hover .triangle,#bout2:hover .triangle,#bout3:hover .triangle,#bout4:hover .triangle {
+    opacity:1;   
+}
+.menu2_tri #bout1:hover,.menu2_tri #bout2:hover,.menu2_tri #bout3:hover,.menu2_tri #bout4:hover {
+    position: relative; 
+    color: white;
+    background-color: rgb(92,173,211);
+    border-bottom:2.5px solid #468cad;
+    padding:9px 6px;
+} 
+.menu2_tri #bout1:hover { 
+    border-top-left-radius:3px; 
+    border-bottom-left-radius:3px;
+}
+.menu2_tri #bout4:hover { 
+    border-top-right-radius:3px; 
+    border-bottom-right-radius:3px;
+}
+/*placement de l'album photos*/
+#album {  
+    display: -webkit-box;/*safari*/ 
+    display: -webkit-flex;/*safari*/ 
+    display: -ms-flexbox;/*Microsoft*/ 
+    display: flex;
+    -webkit-flex-wrap: wrap;/*safari*/ 
+    -ms-flex-wrap: wrap;/*Microsoft*/ 
+    flex-wrap: wrap;
+    justify-content: center;
+    width:65%;
+    margin:auto;
+}
+/*la photo avec animation*/
+figure img {
+    width: 100%;    
+}
+figure { 
+    position: relative; 
+    overflow: hidden; 
+    height: 120px;
+    width: 200px;
+    margin: 5px;
+    background-color:rgba(0,0,0,0);
+} 
+/*texte avec la transition*/
+figcaption { 
+    position:absolute; 
+    width:100%;
+    height:60%;
+    padding:0 10px;
+    bottom:-90%; 
+    transition:all 0.6s ease;
+    -webkit-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+ /*placement centré de l'oeil dans le cercle*/
+figcaption .fa {
+    display:flex;
+    display: -webkit-flex;/*safari*/ 
+    display: -ms-flexbox;/*Microsoft*/ 
+    display: -webkit-box;/*safari*/ 
+    justify-content:center;
+    -webkit-box-pack:center;/*Safari*/   
+    align-items: center;
+    -webkit-box-align:center;/*Safari*/  
+    -ms-box-align:center;/*Microsoft*/ 
+    width:26px;
+    height:26px;
+    background-color:#4590b1;
+    border-radius:17.5px;
+    border:2px solid lightgrey;
+    margin-left:70%;
+    margin-top:-41.5%; 
+}
+figure:hover figcaption {  
+    background: rgba(0,0,0,0.6);
+    bottom:0;
+}
+/*filtre bleu map et formulaire*/
+footer {
+    margin-top:7%;
+} 
+/*filtre*/ 
+#filtre_bleu {
+    position:relative;
+    background-color:rgb(52,145,178);
+    width:100%;
+    height:660px;
+    z-index: 1; 
+}
+/*google map*/
+iframe {  
+    position:relative;  
+    color: rgb(52, 145, 178); 
+    height:660px;
+    width:100%;
+    opacity: 0.7;
+}
+/*formulaire*/
+ form {   
+    position: absolute; 
+    background-color:rgba(255, 255, 255,0.8);
+    width:18%;
+    height:auto;
+    padding:1% 0.5% 0% 3%;
+    margin-top:3%;
+    left:70%;
+    z-index:2;
+}
+/*coordonnées du formulaire*/
+div#titre {
+    color:grey;
+    font-size:0.8em;
+    font-weight:100;
+    margin-left: -5%;
+}
+/*titre dans le formulaire*/
+strong {
+    margin-left: -5%;
+}
+div#formulaire_content {
+    margin-bottom:20%;
+    margin-top:10%;
+    margin-left:-7%;
+}
+/*tous les input text*/
+div#formulaire_content input { 
+    font-family:'roboto';
+    font-size:0.7em;
+    font-size-adjust:0.6; 
+    margin-bottom:5%;
+    padding:3% 1.5%;
+    width:90%;
+}
+/*textarea*/
+div#message textarea {
+    margin-top:2%;
+    font-family:'roboto';
+    font-size:0.8em;
+    font-weight:100;
+    font-size-adjust:0.6; 
+    margin-top:4%;
+    padding-left:2.7%;
+    width:90%;
+}
+/*bouton send message*/
+div#send input{
+    background-color:#5cadd3;
+    border-bottom:2px solid  #468cad;
+    font-family:'Roboto';
+    color:white;
+    font-size:0.7em;
+    font-size-adjust:0.6; 
+    margin-top:5%; 
+    width:37%;
+    padding:8px 8px;
+    border-radius:8%;
+    text-decoration: none;
+    border-top:#5cadd3;
+    border-right:#5cadd3;
+    border-left:#5cadd3; 
+}
+/*responsive design*/
+/*ordinateur grande taille*/
+@media all and (min-width:1920px) {
+    .menu1_ac a{font-size:1.75em;}
+    h1{font-size:2em;}
+    h2{font-size:2em;}
+    h6{font-size:1em;}
+    h3{font-size:1em;} 
+    h4{font-size:1em;} 
+    figcaption .fa{margin-top:-37%;}
+    div#titre{font-size:1em;}
+    #progress{top:310px;} 
+    form{width:16%;height:auto;margin-top:1%;} 
+    #menu1{margin-top:2%;} 
+    .menu1_ac a{font-size:1em;} 
+    #album{width: 45%;}  
+    div#send input{width:46%;}
+    #services_tab{ margin-top:-12%;}
+}
+/* ordinateur petite taille */ 
+@media all and (max-width: 1280px) {
+    h1{margin-left:-15%;}
+    h6{margin-left:-15%;}
+    #body_slide a {margin-left:-15%;}
+    #progress{display: none;} 
+    #services_tab{ margin-top:-17%;}
+    #album{width: 80%;}
+    form{width:23%;height:auto;padding:1% 0.5% 1% 4%;left:65%;}
+}
+/*tablette paysage*/ 
+@media all and (max-width: 1024px) {
+    #progress{display: none;}
+    h1{font-size:1.1em;margin-left:-15%;}
+    h6{font-size:0.7em;margin-left:-15%;}
+    #body_slide a {margin-left:-15%;}
+    #services_font{margin-left:50%; margin-top:-12%;}
+    #services_tab{margin-top:-23%;}
+    .cercle{margin-top:-3%; margin-left:47%;}
+    .rond{margin-top:11%; margin-left:27%;}
+    #cercle1{top:-20px;}
+    #ball1{top:-65px;} 
+    #line{top:-50px;}
+    #cercle2{top:5px;}
+    #ball2{top:-42px;}
+    #cubes{top:-25px;}
+    hr{margin-top:-2%; margin-left:40%;}
+    #album{width: 85%;}
+    form{width:25%;height:auto;padding:1% 0.5% 1% 4%;left:65%;}
+     div#send input{width:45%;}
+}
+/*tablette portrait*/ 
+@media all and (max-width: 768px) {
+    #flottant_logo {width:15%;margin-left:6%;padding-top:3%;}
+    h1{font-size:1em;margin-left:-15%;margin-top:8%;}
+    h6{font-size:0.6em;margin-left:-15%;} 
+    #body_slide a,#bouton_slide,#progress,#services_font{display:none;}
+    #slider img{width:100%;}
+    #body_slide a{margin-left:-15%;}    
+    hr{margin-top:-2%;width:35%; margin-left:32%;}
+    .cercle{margin-top:-3%; margin-left:47%;}
+    .rond{margin-top:11%; margin-left:27%;}
+    #services_tab{ margin-top:-20%;}
+    iframe{width:100%;}
+    form{width:34%;height:auto;padding:1% 0.5% 1% 5%;left:55%;}
+    div#send input{width:45%;}
+}
+/*mobile*/
+@media all and (max-width:320px) { 
+    #flottant_logo {width:20%;margin-left:5%;padding-top:2%;}
+    #menu{width:auto; margin-top:-18%;}
+    .menu1_ac a:hover{padding-top:4px;} 
+    h1,h6, #body_slide a, #slider img, #bouton_slide,#progress,#services_font,#menu2,#filtre_bleu,iframe {display: none;}
+    #tv{width:80%;margin-left:10%;}
+    #element1{padding-top:5%;}
+    hr{margin-top:-4%;width:75%; margin-left:10%;}
+    .cercle{margin-top:-7%; margin-left:43%;}
+    .rond{margin-top:17%; margin-left:23%;}
+    #services_tab{margin-left:20%;margin-top:20%;}
+    #element2{padding-top:5%;}
+    form{width:65%;height:auto;padding:1% 1% 1% 10%;float: none;left:15%;background-color:lightgrey;}
+    div#send input{width:56%;}
+}
